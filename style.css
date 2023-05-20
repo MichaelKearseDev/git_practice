@@ -1,0 +1,61 @@
+body {
+  background-color: lightblue;
+}
+
+.test-text {
+  text-align: center;
+  color: black;
+}
+
+.test-button {
+  background-color: lightblue;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.15s, padding 0.15s, background-color 0.15s,
+    color 0.15s;
+}
+
+.test-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.test-button:active {
+  padding: 15px;
+  background-color: black;
+  color: lightblue;
+  opacity: 0.75;
+}
+
+.goback-button {
+  background-color: lightblue;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.15s, padding 0.15s, background-color 0.15s,
+    color 0.15s;
+}
+
+.goback-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .goback-button:active {
+    padding: 15px;
+    background-color: black;
+    color: lightblue;
+    opacity: 0.75;
+  }
+  
+  .page2-test {
+    text-align: center;
+    color: black;
+  }
